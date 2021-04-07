@@ -2,10 +2,8 @@
 #include <stdlib.h>
 int main() {
            int na, nb;
-           int A[na];//Первый массив
-           int B[nb];//Второй массив
-           int* pa = NULL;
-           int* pb = NULL;
+           int* pa = NULL;//Первый массив
+           int* pb = NULL;//Второй массив
            printf("na, nb = ");
            scanf ("%d", &na);//Вводим 100
            scanf ("%d", &nb);//Вводим 100
